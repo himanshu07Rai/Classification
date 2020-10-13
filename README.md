@@ -1,4 +1,12 @@
 # Classification
+
+## Logistic Regression
+It is the go-to method for binary classification problems (problems with two class values).
+
+	y = b0 + b1 * x       //Linear Regression
+	p = 1 / ( 1 + e^( -y ) )       //Sigmoid Function
+	ln ( p / ( 1 - p ) ) = b0 + b1 * x      //Logistic Regression
+
 ## K-Nearest Neighbors (K-NN)
 	1. Choose the number of K of neighbors (commonly k=5 or 10).
 	2. Take the K nearest neighbors of the new data point, according to the Euclidean distance or other distances.
