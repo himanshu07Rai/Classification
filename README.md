@@ -23,3 +23,7 @@ An SVM model is basically a representation of different classes in a hyperplane 
 Kernel trick is widely used in the SVM model to bridge linearity and non-linearity. If we find a way to map the data from 2-dimensional space to 3-dimensional space, we will be able to find a decision surface that clearly divides between different classes. However, when there are more and more dimensions, computations within that space become more and more expensive. This is when the kernel trick comes in. It allows us to operate in the original feature space without computing the coordinates of the data in a higher dimensional space.There are different kernels.
 	
 The kernel trick sounds like a “perfect” plan. However, one critical thing to keep in mind is that when we map data to a higher dimension, there are chances that we may overfit the model. Thus choosing the right kernel function (including the right parameters) and regularization are of great importance
+
+## Naive Bayes
+
+Read about [Bayes Theorem](https://www.mathsisfun.com/data/bayes-theorem.html)
